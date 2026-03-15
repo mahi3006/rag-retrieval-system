@@ -1,0 +1,35 @@
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── ChromaDB Vector Store ─────────────────────────────────────────────────────
+# Rebuilt in 38s by running: python src/vectorstore.py --build
+data/chroma_db/
+
+# ── Raw PDFs ──────────────────────────────────────────────────────────────────
+# Too large for git. Add your own PDFs to data/raw/ after cloning.
+# data/raw/
+
+# ── Jupyter Checkpoints ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── OS Junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

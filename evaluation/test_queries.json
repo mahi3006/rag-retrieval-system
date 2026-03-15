@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01",
+    "query": "What are the main applications of AI in FMCG supply chains?",
+    "expected_answer": "demand forecasting, inventory optimisation, supplier management, logistics automation, route optimisation",
+    "relevant_keywords": ["demand forecasting", "inventory", "supply chain", "AI", "FMCG", "automation"],
+    "difficulty": "easy",
+    "category": "overview"
+  },
+  {
+    "id": "q02",
+    "query": "How does machine learning improve demand forecasting accuracy?",
+    "expected_answer": "ML models use historical sales data, external signals like weather and promotions to reduce forecast error compared to traditional statistical methods",
+    "relevant_keywords": ["demand forecasting", "machine learning", "accuracy", "forecast error", "sales data"],
+    "difficulty": "easy",
+    "category": "forecasting"
+  },
+  {
+    "id": "q03",
+    "query": "What are the risks of deploying generative AI in supply chain operations?",
+    "expected_answer": "hallucination, data quality issues, lack of explainability, over-reliance on AI, security risks, integration challenges",
+    "relevant_keywords": ["risk", "hallucination", "generative AI", "supply chain", "explainability"],
+    "difficulty": "medium",
+    "category": "risk"
+  },
+  {
+    "id": "q04",
+    "query": "How can large language models be used for supplier risk assessment?",
+    "expected_answer": "LLMs can analyse news, financial reports, and procurement data to identify supplier vulnerabilities and flag risk signals",
+    "relevant_keywords": ["LLM", "supplier", "risk", "procurement", "assessment"],
+    "difficulty": "medium",
+    "category": "supplier management"
+  },
+  {
+    "id": "q05",
+    "query": "What is the role of digital twins in supply chain management?",
+    "expected_answer": "digital twins create virtual replicas of supply chain networks to simulate disruptions, test scenarios, and optimise decisions in real time",
+    "relevant_keywords": ["digital twin", "simulation", "supply chain", "optimisation", "disruption"],
+    "difficulty": "medium",
+    "category": "technology"
+  },
+  {
+    "id": "q06",
+    "query": "How does AI support last-mile delivery optimisation?",
+    "expected_answer": "AI optimises delivery routes, predicts delivery windows, reduces fuel costs and improves on-time delivery rates",
+    "relevant_keywords": ["last mile", "delivery", "route optimisation", "logistics", "AI"],
+    "difficulty": "easy",
+    "category": "logistics"
+  },
+  {
+    "id": "q07",
+    "query": "What challenges exist when implementing AI in data-light supply chain environments?",
+    "expected_answer": "lack of historical data, poor data quality, limited infrastructure, small sample sizes make training reliable models difficult",
+    "relevant_keywords": ["data-light", "data quality", "historical data", "implementation", "challenge"],
+    "difficulty": "hard",
+    "category": "implementation"
+  },
+  {
+    "id": "q08",
+    "query": "How are transformer models applied to supply chain forecasting?",
+    "expected_answer": "transformer architectures capture long-range temporal dependencies in time series data, outperforming traditional ARIMA and LSTM models",
+    "relevant_keywords": ["transformer", "forecasting", "time series", "LSTM", "attention"],
+    "difficulty": "hard",
+    "category": "forecasting"
+  },
+  {
+    "id": "q09",
+    "query": "What is the maturity level of AI adoption in FMCG companies?",
+    "expected_answer": "most FMCG companies are in early to mid stages of AI adoption, with pilots in forecasting and logistics, few at full-scale deployment",
+    "relevant_keywords": ["maturity", "adoption", "FMCG", "pilot", "deployment", "scale"],
+    "difficulty": "medium",
+    "category": "adoption"
+  },
+  {
+    "id": "q10",
+    "query": "How does reinforcement learning apply to inventory management?",
+    "expected_answer": "reinforcement learning agents learn optimal reorder policies by interacting with simulated inventory environments to minimise stockouts and holding costs",
+    "relevant_keywords": ["reinforcement learning", "inventory", "reorder", "stockout", "policy"],
+    "difficulty": "hard",
+    "category": "inventory"
+  },
+  {
+    "id": "q11",
+    "query": "What role does natural language processing play in procurement?",
+    "expected_answer": "NLP extracts information from contracts, invoices, and supplier communications to automate data entry and flag anomalies",
+    "relevant_keywords": ["NLP", "procurement", "contracts", "invoices", "automation"],
+    "difficulty": "medium",
+    "category": "procurement"
+  },
+  {
+    "id": "q12",
+    "query": "How do organisations measure the ROI of AI supply chain projects?",
+    "expected_answer": "ROI metrics include reduction in forecast error, inventory carrying costs, stockout rates, logistics costs, and lead times",
+    "relevant_keywords": ["ROI", "metrics", "forecast error", "cost reduction", "measurement"],
+    "difficulty": "medium",
+    "category": "evaluation"
+  },
+  {
+    "id": "q13",
+    "query": "What data sources are commonly used for AI-driven supply chain models?",
+    "expected_answer": "ERP data, POS data, weather data, social media signals, IoT sensor data, historical sales, and external economic indicators",
+    "relevant_keywords": ["data sources", "ERP", "POS", "IoT", "sensor", "sales data"],
+    "difficulty": "easy",
+    "category": "data"
+  },
+  {
+    "id": "q14",
+    "query": "How does AI help with supply chain disruption detection and response?",
+    "expected_answer": "AI monitors real-time signals from news, logistics networks, and supplier data to detect early disruption signals and recommend responses",
+    "relevant_keywords": ["disruption", "detection", "real-time", "monitoring", "resilience"],
+    "difficulty": "medium",
+    "category": "resilience"
+  },
+  {
+    "id": "q15",
+    "query": "What are the ethical considerations of using AI in supply chain decisions?",
+    "expected_answer": "bias in supplier selection, lack of transparency in automated decisions, worker displacement, and accountability for AI-driven errors",
+    "relevant_keywords": ["ethics", "bias", "transparency", "accountability", "fairness"],
+    "difficulty": "hard",
+    "category": "ethics"
+  },
+  {
+    "id": "q16",
+    "query": "How does generative AI assist in supply chain scenario planning?",
+    "expected_answer": "generative AI can synthesise multiple risk scenarios, generate contingency plans, and produce narrative summaries of supply chain stress tests",
+    "relevant_keywords": ["generative AI", "scenario planning", "contingency", "stress test", "simulation"],
+    "difficulty": "medium",
+    "category": "planning"
+  },
+  {
+    "id": "q17",
+    "query": "What is autonomous supply chain and how close are we to achieving it?",
+    "expected_answer": "autonomous supply chain refers to self-managing operations driven by AI with minimal human intervention; most organisations remain far from full autonomy",
+    "relevant_keywords": ["autonomous", "self-managing", "human intervention", "AI", "automation level"],
+    "difficulty": "hard",
+    "category": "future"
+  },
+  {
+    "id": "q18",
+    "query": "How are graph neural networks used in supply chain optimisation?",
+    "expected_answer": "GNNs model supplier-buyer relationships as graphs, enabling better predictions of ripple effects from node-level disruptions",
+    "relevant_keywords": ["graph neural network", "GNN", "supplier", "network", "optimisation"],
+    "difficulty": "hard",
+    "category": "technology"
+  },
+  {
+    "id": "q19",
+    "query": "What is the impact of AI on warehouse operations and fulfilment?",
+    "expected_answer": "AI improves picking efficiency, reduces errors, optimises slotting, and enables predictive maintenance of warehouse equipment",
+    "relevant_keywords": ["warehouse", "fulfilment", "picking", "slotting", "automation"],
+    "difficulty": "easy",
+    "category": "warehouse"
+  },
+  {
+    "id": "q20",
+    "query": "How do companies handle model drift in deployed supply chain AI systems?",
+    "expected_answer": "model drift is addressed through continuous retraining pipelines, monitoring of prediction accuracy, and automated alerting when performance degrades",
+    "relevant_keywords": ["model drift", "retraining", "monitoring", "performance degradation", "MLOps"],
+    "difficulty": "hard",
+    "category": "MLOps"
+  }
+]

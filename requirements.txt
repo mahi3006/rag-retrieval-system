@@ -1,0 +1,49 @@
+# ── Core RAG & LangChain ──────────────────────────────────────────────────────
+langchain==1.2.12
+langchain-community==0.4.1
+langchain-core==1.2.19
+langchain-text-splitters==1.1.1
+
+# ── Vector Database ───────────────────────────────────────────────────────────
+chromadb==1.5.5
+
+# ── Embeddings & Reranker ─────────────────────────────────────────────────────
+sentence-transformers==5.3.0
+transformers==5.3.0
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface_hub==1.7.1
+
+# ── Deep Learning (GPU) ───────────────────────────────────────────────────────
+torch==2.10.0
+
+# ── PDF Ingestion ─────────────────────────────────────────────────────────────
+pypdf==6.8.0
+
+# ── BM25 (Keyword Search for Hybrid Retrieval) ────────────────────────────────
+rank-bm25==0.2.2
+
+# ── Ollama Python Client ──────────────────────────────────────────────────────
+ollama==0.6.1
+
+# ── Data & Evaluation ─────────────────────────────────────────────────────────
+numpy==2.4.1
+pandas==3.0.0
+scikit-learn==1.8.0
+scipy==1.17.1
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# ── Notebook ──────────────────────────────────────────────────────────────────
+jupyter
+ipykernel
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm==4.67.1
+python-dotenv==1.1.0
+requests==2.32.3
+pydantic==2.11.5
+
+reportlab==4.4.9    

@@ -1,0 +1,5 @@
+collection,Precision_at_5,Recall_at_5,MRR,Hit_Rate_at_5,Avg_Latency_ms,Rank
+recursive_bge,0.79,0.9,0.8125,0.9,10.9265,1
+fixed_bge,0.79,0.9,0.81,0.9,16.367,2
+fixed_minilm,0.7,0.9,0.8,0.9,21.846,3
+recursive_minilm,0.71,0.9,0.7975,0.9,10.7545,4

@@ -1,0 +1,5 @@
+combo,embedding_model,chunking,embed_query_mean_ms,embed_query_min_ms,embed_query_max_ms,vector_search_mean_ms,vector_search_min_ms,vector_search_max_ms
+fixed_minilm,minilm,fixed,19.04,5.31,205.4,11.41,7.49,57.85
+fixed_bge,bge,fixed,9.29,9.11,10.0,14.52,11.46,49.69
+recursive_minilm,minilm,recursive,5.69,5.32,6.46,9.43,7.69,27.16
+recursive_bge,bge,recursive,9.53,9.15,10.74,13.43,11.6,26.89
